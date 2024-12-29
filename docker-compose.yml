@@ -61,12 +61,9 @@ services:
     networks:
       - taiga
     depends_on:
-      taiga-db:
-        condition: service_healthy
-      taiga-events-rabbitmq:
-        condition: service_started
-      taiga-async-rabbitmq:
-        condition: service_started
+      - taiga-db
+      - taiga-events-rabbitmq
+      - taiga-async-rabbitmq
 
   taiga-async:
     image: taigaio/taiga-back:latest
@@ -76,12 +73,9 @@ services:
     networks:
       - taiga
     depends_on:
-      taiga-db:
-        condition: service_healthy
-      taiga-events-rabbitmq:
-        condition: service_started
-      taiga-async-rabbitmq:
-        condition: service_started
+      - taiga-db
+      - taiga-events-rabbitmq
+      - taiga-async-rabbitmq
 
   taiga-async-rabbitmq:
     image: rabbitmq:3.8-management-alpine
@@ -117,8 +111,7 @@ services:
     networks:
       - taiga
     depends_on:
-      taiga-events-rabbitmq:
-        condition: service_started
+      - taiga-events-rabbitmq
 
   taiga-events-rabbitmq:
     image: rabbitmq:3.8-management-alpine
