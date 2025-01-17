@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Taiga Docker
 
 | :exclamation: | We recently announced Taiga plans for the future and they greatly affect how we manage this repository and the current Taiga 6 release. Check it [here](https://blog.taiga.io/announcing_taiganext.html).    |
@@ -51,6 +52,15 @@ It's developed by the same team behind Taiga. If you want to give it a try, you 
 ![Penpot screenshot](imgs/penpot.jpg)
 
 And finally if you just want to launch Taiga standalone, you can use the `launch-taiga.sh` script instead of the `launch-all.sh`.
+=======
+## Taiga Backend
+
+&gt; **READ THIS FIRST!**: We recently announced Taiga plans for the future and they greatly affect how we manage this repository and the current Taiga 6 release. Check it [here](https://blog.taiga.io/announcing_taiganext.html).
+
+[![Managed with Taiga.io](https://img.shields.io/badge/managed%20with-TAIGA.io-709f14.svg)](https://tree.taiga.io/project/taiga/ "Managed with Taiga.io")
+[![Tests Status](https://github.com/taigaio/taiga-back/workflows/Taiga%20Back%20-%20Test%20and%20Coverage/badge.svg?branch=main)](https://github.com/taigaio/taiga-back/actions?query=workflow%3A%22Taiga+Back+-+Test+and+Coverage%22 "Tests Status")
+[![Coverage Status](https://img.shields.io/coveralls/taigaio/taiga-back/main.svg)](https://coveralls.io/r/taigaio/taiga-back?branch=main "Coverage Status")
+>>>>>>> upstream/stable
 
 ## Documentation
 
@@ -58,14 +68,22 @@ Currently, we have authored three main documentation hubs:
 
 - **[API](https://docs.taiga.io/api.html)**: Our API documentation and reference for developing from Taiga API.
 - **[Documentation](https://docs.taiga.io/)**: If you need to install Taiga on your own server, this is the place to find some guides.
+<<<<<<< HEAD
 - **[Taiga Community](https://community.taiga.io/)**: This page is intended to be the support reference page for the users.
+=======
+- **[Taiga Resources](https://community.taiga.io/)**: This page is intended to be the support reference page for the users.
+>>>>>>> upstream/stable
 
 ## Bug reports
 
 If you **find a bug** in Taiga you can always report it:
 
 - in [Taiga issues](https://tree.taiga.io/project/taiga/issues). **This is the preferred way**
+<<<<<<< HEAD
 - in [Github issues](https://github.com/taigaio/taiga-docker/issues)
+=======
+- in [Github issues](https://github.com/taigaio/taiga-back/issues)
+>>>>>>> upstream/stable
 - send us a mail to support@taiga.io if is a bug related to [tree.taiga.io](https://tree.taiga.io)
 - send us a mail to security@taiga.io if is a **security bug**
 
@@ -81,7 +99,11 @@ If you want to be up to date about announcements of releases, important changes 
 
 ## Contribute to Taiga
 
+<<<<<<< HEAD
 There are many different ways to contribute to Taiga's platform, from patches, to documentation and UI enhancements, just find the one that best fits with your skills. Check out our detailed [contribution guide](https://community.taiga.io/t/how-can-i-contribute/159#code-patches-enhacements-3).
+=======
+There are many different ways to contribute to Taiga's platform, from patches, to documentation and UI enhancements, just find the one that best fits with your skills. Check out our detailed [contribution guide](https://community.taiga.io/t/how-can-i-contribute/159)
+>>>>>>> upstream/stable
 
 ## Code of Conduct
 
@@ -91,6 +113,7 @@ Help us keep the Taiga Community open and inclusive. Please read and follow our 
 
 Every code patch accepted in Taiga codebase is licensed under [MPL 2.0](LICENSE). You must be careful to not include any code that can not be licensed under this license.
 
+<<<<<<< HEAD
 Please read carefully [our license](LICENSE) and ask us if you have any questions as well as the [Contribution policy](https://github.com/taigaio/taiga-docker/blob/main/CONTRIBUTING.md).
 
 ## Configuration
@@ -539,3 +562,6 @@ server {
 ## Change between subpath and subdomain
 
 If you're changing Taiga configuration from default subdomain (https://taiga.mycompany.com) to subpath (http://mycompany.com/subpath) or vice versa, on top of adjusting the configuration as said above, you should consider changing the TAIGA_SECRET_KEY so the refresh works properly for the end user.
+=======
+Please read carefully [our license](LICENSE) and ask us if you have any questions as well as the [Contribution policy](https://github.com/taigaio/taiga-back/blob/main/CONTRIBUTING.md).
+>>>>>>> upstream/stable
