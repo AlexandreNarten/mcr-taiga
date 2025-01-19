@@ -25,3 +25,30 @@ Other previous core team members:
 - Jesus Espino Garcia <jespinog@gmail.com>
 
 Special thanks to `Kaleidos Open Source S.L. <https://kaleidos.net/>`_ for providing time for Taiga development.
+<<<<<<< HEAD
+=======
+
+And here is an inevitably incomplete list of MUCH-APPRECIATED CONTRIBUTORS, people who have submitted patches, reported bugs, added translations, helped answer newbie questions, and generally made Taiga that much better:
+
+- Alejandro Gómez <alejandro.gomez@kaleidos.net>
+- Allister Antosik <me@allisterantosik.com>
+- Alonso Torres <alonso.torres@kaleidos.net>
+- Andrea Stagi <stagi.andrea@gmail.com>
+- Andrés Moya <andres.moya@kaleidos.net>
+- Andrey Alekseenko <al42and@gmail.com>
+- Brett Profitt <brett.profitt@gmail.com>
+- Bruno Clermont <bruno@robotinfra.com>
+- Chris Wilson <chris.wilson@aridhia.com>
+- David Burke <david@burkesoftware.com>
+- Everardo Medina <everblut@gmail.com>
+- Hector Colina <hcolina@gmail.com>
+- Joe Letts
+- Julien Palard
+- luyikei <luyikei.qmltu@gmail.com>
+- Michael Jurke <m.jurke@gmx.de>
+- Motius GmbH <mail@motius.de>
+- Riccardo Coccioli <riccardo.coccioli@immobiliare.it>
+- Ricky Posner <e@eposner.com>
+- Stefan Auditor <stefan.auditor@erdfisch.de>
+- Yaser Alraddadi <yaser@yr.sa>
+>>>>>>> upstream/stable
